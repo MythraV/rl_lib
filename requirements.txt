@@ -1,0 +1,9 @@
+dill==0.3.5.1
+gym[all]
+matplotlib==3.5.3
+mujoco==2.2.1
+opencv-python
+torch
+torchvision
+torchaudio
+tqdm
