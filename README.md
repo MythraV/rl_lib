@@ -8,7 +8,7 @@ Includes the following list of algorithms
 Control
     REINFORCE
     Vanilla Actor-Critic
-    [DDPG](https://github.com/MythraV/rl_lib/tree/main/agents/DDPG)
+    [DDPG](agents/DDPG)
     [TD3](https://github.com/MythraV/rl_lib/tree/main/agents/TD3)
     [SAC](https://github.com/MythraV/rl_lib/tree/main/agents/SAC)
 
