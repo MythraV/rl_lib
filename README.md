@@ -25,8 +25,9 @@ Classical Control [Single file implementations for specific environments]
 
 ## Requirements
 
--pytorch
--gym
--matplotlib
+- pytorch
+
+- gym
+- matplotlib
 
 For complete set of requirements see requirements.txt
