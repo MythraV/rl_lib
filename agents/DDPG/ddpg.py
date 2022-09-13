@@ -202,14 +202,3 @@ class DDPG():
             for target_params, params in zip(target.parameters(), src.parameters()):
                 target_params.data.copy_(tau*params.data+(1-tau)*target_params.data)
 
-if __name__=="__main__":
-    # test agent on lunar lander
-    env = gym.make('LunarLanderContinuous-v2')
-
-    device = T.device("cuda:0" if T.cuda.is_available() else "cpu")
-
-    model = DDPG(env,1e-4,1e-3,ActorNetwork,CriticNetwork,[400,300],
-                    1e6,device=device,tau=0.001,gamma=0.99,batch_size=128)
-    rews = model.learn(num_episodes=1000,verbose=1)    
-    plt.plot(rews)
-    plt.show()

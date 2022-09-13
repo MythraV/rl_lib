@@ -315,18 +315,3 @@ class SAC():
         with bz2.BZ2File(nam,'rb') as f:
             self = pickle.load(f)
         return self
-
-
-if __name__=="__main__":
-    # test agent on Pendulum-v1
-    env = gym.make('Pendulum-v1')
-
-    device = T.device("cuda:0" if T.cuda.is_available() else "cpu")
-
-    model = SAC(env,3e-4,3e-4,GaussianActorNetwork,CriticNetwork,[256,256],
-                    1e6,device=device,tau=0.005,gamma=0.99,batch_size=256,
-                    alpha=0.9,tune_alpha=True,lr_alpha=3e-4)
-    rews = model.learn(num_episodes=250,verbose=1)
-    model.save('log/sac')    
-    plt.plot(rews)
-    plt.show()
