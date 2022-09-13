@@ -24,6 +24,7 @@ Classical Control [Single file implementations for specific environments]
 
 
 ## Requirements
+
 -pytorch
 -gym
 -matplotlib
