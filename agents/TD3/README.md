@@ -1,4 +1,4 @@
-# Pytorch implementation of Twin Deep Deterministic Policy Gradient
+# Pytorch implementation of Twin Delayed DDPG
 
 See test_td3.py for example usage
 
