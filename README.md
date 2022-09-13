@@ -5,7 +5,7 @@ The networks are implemented with pytorch for deep RL agents
 
 Includes the following list of algorithms
 
-### Control
+ Control
     * REINFORCE
     * Vanilla Actor-Critic
     * [DDPG](agents/DDPG)
