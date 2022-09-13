@@ -6,11 +6,11 @@ The networks are implemented with pytorch for deep RL agents
 Includes the following list of algorithms
 
 ### Control
-    -REINFORCE
-    -Vanilla Actor-Critic
-    -[DDPG](agents/DDPG)
-    -[TD3](agents/TD3)
-    -[SAC](agents/SAC)
+    - REINFORCE
+    - Vanilla Actor-Critic
+    - [DDPG](agents/DDPG)
+    - [TD3](agents/TD3)
+    - [SAC](agents/SAC)
 
 #### Classical Control [Single file implementations for specific environments]
        -Monte-Carlo Control [Blackjack]
