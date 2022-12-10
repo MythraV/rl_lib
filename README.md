@@ -1,7 +1,7 @@
 # rl_lib
 
 Implementations of popular RL control and prediction agents.
-The networks are implemented with pytorch for deep RL agents
+The Deep RL algorithms are implemented using PyTorch.
 
 Includes the following list of algorithms
 
@@ -31,3 +31,6 @@ Classical Control [Single file implementations for specific environments]
 - matplotlib
 
 For complete set of requirements see requirements.txt
+
+
+Comeback for updates -- (Implementations from TorchRL)
